@@ -1,0 +1,84 @@
+/* Write your CSS code here */
+.image-url {
+  width: 240px;
+  height: 140px;
+}
+.item-topic {
+  font-family: 'Roboto';
+  color: #d3d3d3;
+  font-size: 12px;
+  font-weight: 700;
+}
+.item-title {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.avatar-url {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.item-author {
+  font-family: 'Roboto';
+  color: #8e8e8e;
+  font-size: 14px;
+  margin-left: 7px;
+}
+.blog-item-link {
+  color: #000000;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog-item-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  border: 1px solid #d3d3d3;
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+}
+.title-details {
+  margin-left: 10px;
+}
+.avatar-author {
+  display: flex;
+  align-items: center;
+}
+.blog-list-container {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-item-container {
+    flex-direction: row;
+    width: 992px;
+    padding: 15px;
+  }
+  .title-details {
+    margin-left: 22px;
+  }
+  .image-url {
+    width: 340px;
+    height: 220px;
+  }
+  .item-topic {
+    font-size: 18px;
+  }
+  .item-title {
+    font-size: 20px;
+  }
+  .avatar-url {
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+  }
+  .item-author {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
